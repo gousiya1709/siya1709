@@ -41,12 +41,12 @@
 						"mappings": [
 							{
 								"source": {
-									"name": "SALE COUNTRY",
+									"name": "SALECOUNTRY",
 									"type": "String",
 									"physicalType": "String"
 								},
 								"sink": {
-									"name": "SALE COUNTRY",
+									"name": "SALECOUNTRY",
 									"type": "String",
 									"physicalType": "UTF8"
 								}
@@ -65,36 +65,36 @@
 							},
 							{
 								"source": {
-									"name": "IMPORT / DOMESTIC",
+									"name": "IMPORT/DOMESTIC",
 									"type": "String",
 									"physicalType": "String"
 								},
 								"sink": {
-									"name": "IMPORT / DOMESTIC",
+									"name": "IMPORT/DOMESTIC",
 									"type": "String",
 									"physicalType": "UTF8"
 								}
 							},
 							{
 								"source": {
-									"name": "Mnemonic Only",
+									"name": "MnemonicOnly",
 									"type": "String",
 									"physicalType": "String"
 								},
 								"sink": {
-									"name": "Mnemonic Only",
+									"name": "MnemonicOnly",
 									"type": "String",
 									"physicalType": "UTF8"
 								}
 							},
 							{
 								"source": {
-									"name": "Vehicle Sales: Mnemonic - Vehicle/Country or MCODE",
+									"name": "VehicleSales:Mnemoni-Vehicle/Country or MCODE",
 									"type": "String",
 									"physicalType": "String"
 								},
 								"sink": {
-									"name": "Vehicle Sales: Mnemonic - Vehicle/Country or MCODE",
+									"name": "VehicleSales:Mnemoni-Vehicle/Country or MCODE",
 									"type": "String",
 									"physicalType": "UTF8"
 								}
@@ -113,84 +113,84 @@
 							},
 							{
 								"source": {
-									"name": "Vehicle Sales: Sales Parent or GROUP",
+									"name": "VehicleSales:SalesParentorGROUP",
 									"type": "String",
 									"physicalType": "String"
 								},
 								"sink": {
-									"name": "Vehicle Sales: Sales Parent or GROUP",
+									"name": "VehicleSales:SalesParentorGROUP",
 									"type": "String",
 									"physicalType": "UTF8"
 								}
 							},
 							{
 								"source": {
-									"name": "Vehicle Sales: Car/Truck or MACRO LEVEL SEGMENT",
+									"name": "VehicleSales:Car/TruckorMACROLEVELSEGMENT",
 									"type": "String",
 									"physicalType": "String"
 								},
 								"sink": {
-									"name": "Vehicle Sales: Car/Truck or MACRO LEVEL SEGMENT",
+									"name": "VehicleSales:Car/TruckorMACROLEVELSEGMENT",
 									"type": "String",
 									"physicalType": "UTF8"
 								}
 							},
 							{
 								"source": {
-									"name": "Vehicle Sales: Regional Sub-Segment or MODIFIED SEGMENT",
+									"name": "VehicleSales:RegionalSub-SegmentorMODIFIEDSEGMENT",
 									"type": "String",
 									"physicalType": "String"
 								},
 								"sink": {
-									"name": "Vehicle Sales: Regional Sub-Segment or MODIFIED SEGMENT",
+									"name": "VehicleSales:RegionalSub-SegmentorMODIFIEDSEGMENT",
 									"type": "String",
 									"physicalType": "UTF8"
 								}
 							},
 							{
 								"source": {
-									"name": "Regional Segment Concat or DRI SEGMENT",
+									"name": "RegionalSegmentConcatorDRISEGMENT",
 									"type": "String",
 									"physicalType": "String"
 								},
 								"sink": {
-									"name": "Regional Segment Concat or DRI SEGMENT",
+									"name": "RegionalSegmentConcatorDRISEGMENT",
 									"type": "String",
 									"physicalType": "UTF8"
 								}
 							},
 							{
 								"source": {
-									"name": "Vehicle Sales: Platform",
+									"name": "VehicleSales:Platform",
 									"type": "String",
 									"physicalType": "String"
 								},
 								"sink": {
-									"name": "Vehicle Sales: Platform",
+									"name": "VehicleSales:Platform",
 									"type": "String",
 									"physicalType": "UTF8"
 								}
 							},
 							{
 								"source": {
-									"name": "Vehicle Sales: Brand",
+									"name": "VehicleSales:Brand",
 									"type": "String",
 									"physicalType": "String"
 								},
 								"sink": {
-									"name": "Vehicle Sales: Brand",
+									"name": "VehicleSales:Brand",
 									"type": "String",
 									"physicalType": "UTF8"
 								}
 							},
 							{
 								"source": {
-									"name": "Vehicle Sales: Nameplate or MODEL",
+									"name": "VehicleSales:NameplateorMODEL",
 									"type": "String",
 									"physicalType": "String"
 								},
 								"sink": {
-									"name": "Vehicle Sales: Nameplate or MODEL",
+									"name": "VehicleSales:NameplateorMODEL",
 									"type": "String",
 									"physicalType": "UTF8"
 								}
@@ -221,12 +221,12 @@
 							},
 							{
 								"source": {
-									"name": "Vehicle Sales: Body Type or BODYSTYLE",
+									"name": "VehicleSales:BodyTypeorBODYSTYLE",
 									"type": "String",
 									"physicalType": "String"
 								},
 								"sink": {
-									"name": "Vehicle Sales: Body Type or BODYSTYLE",
+									"name": "VehicleSales:BodyTypeorBODYSTYLE",
 									"type": "String",
 									"physicalType": "UTF8"
 								}
@@ -257,12 +257,12 @@
 							},
 							{
 								"source": {
-									"name": "LAST UPDATE",
+									"name": "LASTUPDATE",
 									"type": "String",
 									"physicalType": "String"
 								},
 								"sink": {
-									"name": "LAST UPDATE",
+									"name": "LASTUPDATE",
 									"type": "String",
 									"physicalType": "UTF8"
 								}
@@ -293,72 +293,72 @@
 							},
 							{
 								"source": {
-									"name": "SECTION WIDTH",
+									"name": "SECTIONWIDTH",
 									"type": "String",
 									"physicalType": "String"
 								},
 								"sink": {
-									"name": "SECTION WIDTH",
+									"name": "SECTIONWIDTH",
 									"type": "String",
 									"physicalType": "UTF8"
 								}
 							},
 							{
 								"source": {
-									"name": "ASPECT RATIO",
+									"name": "ASPECTRATIO",
 									"type": "String",
 									"physicalType": "String"
 								},
 								"sink": {
-									"name": "ASPECT RATIO",
+									"name": "ASPECTRATIO",
 									"type": "String",
 									"physicalType": "UTF8"
 								}
 							},
 							{
 								"source": {
-									"name": "TYPE CONSTRUCTION",
+									"name": "TYPECONSTRUCTION",
 									"type": "String",
 									"physicalType": "String"
 								},
 								"sink": {
-									"name": "TYPE CONSTRUCTION",
+									"name": "TYPECONSTRUCTION",
 									"type": "String",
 									"physicalType": "UTF8"
 								}
 							},
 							{
 								"source": {
-									"name": "RIM DIAMETER",
+									"name": "RIMDIAMETER",
 									"type": "String",
 									"physicalType": "String"
 								},
 								"sink": {
-									"name": "RIM DIAMETER",
+									"name": "RIMDIAMETER",
 									"type": "String",
 									"physicalType": "UTF8"
 								}
 							},
 							{
 								"source": {
-									"name": "LOAD INDEX",
+									"name": "LOADINDEX",
 									"type": "String",
 									"physicalType": "String"
 								},
 								"sink": {
-									"name": "LOAD INDEX",
+									"name": "LOADINDEX",
 									"type": "String",
 									"physicalType": "UTF8"
 								}
 							},
 							{
 								"source": {
-									"name": "SPEED SYMBOL",
+									"name": "SPEEDSYMBOL",
 									"type": "String",
 									"physicalType": "String"
 								},
 								"sink": {
-									"name": "SPEED SYMBOL",
+									"name": "SPEEDSYMBOL",
 									"type": "String",
 									"physicalType": "UTF8"
 								}
@@ -389,12 +389,12 @@
 							},
 							{
 								"source": {
-									"name": "CHECK INFO F TO B",
+									"name": "CHECKINFOFTOB",
 									"type": "String",
 									"physicalType": "String"
 								},
 								"sink": {
-									"name": "CHECK INFO F TO B",
+									"name": "CHECKINFOFTOB",
 									"type": "String",
 									"physicalType": "UTF8"
 								}
@@ -413,72 +413,72 @@
 							},
 							{
 								"source": {
-									"name": "REAR SECTION WIDTH",
+									"name": "REARSECTIONWIDTH",
 									"type": "String",
 									"physicalType": "String"
 								},
 								"sink": {
-									"name": "REAR SECTION WIDTH",
+									"name": "REARSECTIONWIDTH",
 									"type": "String",
 									"physicalType": "UTF8"
 								}
 							},
 							{
 								"source": {
-									"name": "REAR ASPECT RATIO",
+									"name": "REARASPECTRATIO",
 									"type": "String",
 									"physicalType": "String"
 								},
 								"sink": {
-									"name": "REAR ASPECT RATIO",
+									"name": "REARASPECTRATIO",
 									"type": "String",
 									"physicalType": "UTF8"
 								}
 							},
 							{
 								"source": {
-									"name": "REAR TYPE CONSTRUCTION",
+									"name": "REARTYPECONSTRUCTION",
 									"type": "String",
 									"physicalType": "String"
 								},
 								"sink": {
-									"name": "REAR TYPE CONSTRUCTION",
+									"name": "REARTYPECONSTRUCTION",
 									"type": "String",
 									"physicalType": "UTF8"
 								}
 							},
 							{
 								"source": {
-									"name": "REAR RIM DIAMETER",
+									"name": "REARRIMDIAMETER",
 									"type": "String",
 									"physicalType": "String"
 								},
 								"sink": {
-									"name": "REAR RIM DIAMETER",
+									"name": "REARRIMDIAMETER",
 									"type": "String",
 									"physicalType": "UTF8"
 								}
 							},
 							{
 								"source": {
-									"name": "REAR LOAD INDEX",
+									"name": "REARLOADINDEX",
 									"type": "String",
 									"physicalType": "String"
 								},
 								"sink": {
-									"name": "REAR LOAD INDEX",
+									"name": "REARLOADINDEX",
 									"type": "String",
 									"physicalType": "UTF8"
 								}
 							},
 							{
 								"source": {
-									"name": "REAR SPEED SYMBOL",
+									"name": "REARSPEEDSYMBOL",
 									"type": "String",
 									"physicalType": "String"
 								},
 								"sink": {
-									"name": "REAR SPEED SYMBOL",
+									"name": "REARSPEEDSYMBOL",
 									"type": "String",
 									"physicalType": "UTF8"
 								}
@@ -509,12 +509,12 @@
 							},
 							{
 								"source": {
-									"name": "TIRE PARENT",
+									"name": "TIREPARENT",
 									"type": "String",
 									"physicalType": "String"
 								},
 								"sink": {
-									"name": "TIRE PARENT",
+									"name": "TIREPARENT",
 									"type": "String",
 									"physicalType": "UTF8"
 								}
@@ -545,24 +545,24 @@
 							},
 							{
 								"source": {
-									"name": "Tire Category",
+									"name": "TireCategory",
 									"type": "String",
 									"physicalType": "String"
 								},
 								"sink": {
-									"name": "Tire Category",
+									"name": "TireCategory",
 									"type": "String",
 									"physicalType": "UTF8"
 								}
 							},
 							{
 								"source": {
-									"name": "Vehicle App",
+									"name": "VehicleApp",
 									"type": "String",
 									"physicalType": "String"
 								},
 								"sink": {
-									"name": "Vehicle App",
+									"name": "VehicleApp",
 									"type": "String",
 									"physicalType": "UTF8"
 								}
@@ -581,36 +581,36 @@
 							},
 							{
 								"source": {
-									"name": "Reporting Segment",
+									"name": "ReportingSegment",
 									"type": "String",
 									"physicalType": "String"
 								},
 								"sink": {
-									"name": "Reporting Segment",
+									"name": "ReportingSegment",
 									"type": "String",
 									"physicalType": "UTF8"
 								}
 							},
 							{
 								"source": {
-									"name": "Tire Designation",
+									"name": "TireDesignation",
 									"type": "String",
 									"physicalType": "String"
 								},
 								"sink": {
-									"name": "Tire Designation",
+									"name": "TireDesignation",
 									"type": "String",
 									"physicalType": "UTF8"
 								}
 							},
 							{
 								"source": {
-									"name": "AS / SUM / WIN / LRR APPLIES TO OEM MARKETING",
+									"name": "AS/SUM/WIN/LRRAPPLIESTOOEMMARKETING",
 									"type": "String",
 									"physicalType": "String"
 								},
 								"sink": {
-									"name": "AS / SUM / WIN / LRR APPLIES TO OEM MARKETING",
+									"name": "AS/SUM/WIN/LRRAPPLIESTOOEMMARKETING",
 									"type": "String",
 									"physicalType": "UTF8"
 								}
@@ -629,24 +629,24 @@
 							},
 							{
 								"source": {
-									"name": "WHEEL TYPE",
+									"name": "WHEELTYPE",
 									"type": "String",
 									"physicalType": "String"
 								},
 								"sink": {
-									"name": "WHEEL TYPE",
+									"name": "WHEELTYPE",
 									"type": "String",
 									"physicalType": "UTF8"
 								}
 							},
 							{
 								"source": {
-									"name": "RUN_FLAT DETAIL (INTERNAL TO TIRE)",
+									"name": "RUN_FLATDETAIL(INTERNALTOTIRE)",
 									"type": "String",
 									"physicalType": "String"
 								},
 								"sink": {
-									"name": "RUN_FLAT DETAIL (INTERNAL TO TIRE)",
+									"name": "RUN_FLATDETAIL(INTERNALTOTIRE)",
 									"type": "String",
 									"physicalType": "UTF8"
 								}
@@ -677,132 +677,132 @@
 							},
 							{
 								"source": {
-									"name": "SPARE DETAIL (EXTERNAL TO TIRE)",
+									"name": "SPAREDETAIL(EXTERNALTOTIRE)",
 									"type": "String",
 									"physicalType": "String"
 								},
 								"sink": {
-									"name": "SPARE DETAIL (EXTERNAL TO TIRE)",
+									"name": "SPAREDETAIL(EXTERNALTOTIRE)",
 									"type": "String",
 									"physicalType": "UTF8"
 								}
 							},
 							{
 								"source": {
-									"name": "Updated Segment",
+									"name": "UpdatedSegment",
 									"type": "String",
 									"physicalType": "String"
 								},
 								"sink": {
-									"name": "Updated Segment",
+									"name": "UpdatedSegment",
 									"type": "String",
 									"physicalType": "UTF8"
 								}
 							},
 							{
 								"source": {
-									"name": "Updated Bodytype",
+									"name": "UpdatedBodytype",
 									"type": "String",
 									"physicalType": "String"
 								},
 								"sink": {
-									"name": "Updated Bodytype",
+									"name": "UpdatedBodytype",
 									"type": "String",
 									"physicalType": "UTF8"
 								}
 							},
 							{
 								"source": {
-									"name": "Vehicle Sales: Regional Segment",
+									"name": "VehicleSales:RegionalSegment",
 									"type": "String",
 									"physicalType": "String"
 								},
 								"sink": {
-									"name": "Vehicle Sales: Regional Segment",
+									"name": "VehicleSales:RegionalSegment",
 									"type": "String",
 									"physicalType": "UTF8"
 								}
 							},
 							{
 								"source": {
-									"name": "Vehicle Sales: Regional Price Class",
+									"name": "VehicleSales:RegionalPriceClass",
 									"type": "String",
 									"physicalType": "String"
 								},
 								"sink": {
-									"name": "Vehicle Sales: Regional Price Class",
+									"name": "VehicleSales:RegionalPriceClass",
 									"type": "String",
 									"physicalType": "UTF8"
 								}
 							},
 							{
 								"source": {
-									"name": "Global Sales Segment",
+									"name": "GlobalSalesSegment",
 									"type": "String",
 									"physicalType": "String"
 								},
 								"sink": {
-									"name": "Global Sales Segment",
+									"name": "GlobalSalesSegment",
 									"type": "String",
 									"physicalType": "UTF8"
 								}
 							},
 							{
 								"source": {
-									"name": "Global Sales Sub-segment",
+									"name": "GlobalSalesSub-segment",
 									"type": "String",
 									"physicalType": "String"
 								},
 								"sink": {
-									"name": "Global Sales Sub-segment",
+									"name": "GlobalSalesSub-segment",
 									"type": "String",
 									"physicalType": "UTF8"
 								}
 							},
 							{
 								"source": {
-									"name": "Global Sales Price Class",
+									"name": "GlobalSalesPriceClass",
 									"type": "String",
 									"physicalType": "String"
 								},
 								"sink": {
-									"name": "Global Sales Price Class",
+									"name": "GlobalSalesPriceClass",
 									"type": "String",
 									"physicalType": "UTF8"
 								}
 							},
 							{
 								"source": {
-									"name": "Vehicle Sales: Program",
+									"name": "VehicleSales:Program",
 									"type": "String",
 									"physicalType": "String"
 								},
 								"sink": {
-									"name": "Vehicle Sales: Program",
+									"name": "VehicleSales:Program",
 									"type": "String",
 									"physicalType": "UTF8"
 								}
 							},
 							{
 								"source": {
-									"name": "RUN_FLAT SIMPL",
+									"name": "RUN_FLATSIMPL",
 									"type": "String",
 									"physicalType": "String"
 								},
 								"sink": {
-									"name": "RUN_FLAT SIMPL",
+									"name": "RUN_FLATSIMPL",
 									"type": "String",
 									"physicalType": "UTF8"
 								}
 							},
 							{
 								"source": {
-									"name": "SPARE TIRE SIMPL",
+									"name": "SPARETIRESIMPL",
 									"type": "String",
 									"physicalType": "String"
 								},
 								"sink": {
-									"name": "SPARE TIRE SIMPL",
+									"name": "SPARETIRESIMPL",
 									"type": "String",
 									"physicalType": "UTF8"
 								}
