@@ -34,9 +34,7 @@
 			},
 			{
 				"name": "Name1",
-				"type": "decimal",
-				"precision": 18,
-				"scale": 0
+				"type": "varchar"
 			},
 			{
 				"name": "value1",
@@ -47,7 +45,7 @@
 		],
 		"typeProperties": {
 			"schema": "dbo",
-			"table": "oe1"
+			"table": "oe2"
 		}
 	}
 }
