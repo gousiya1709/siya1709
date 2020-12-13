@@ -220,7 +220,7 @@
 				"type": "String"
 			},
 			{
-				"name": "RUN_FLATDETAIL(INTERNALTOTIRE)",
+				"name": "RUN_FLATDETAILINTERNALTOTIRE",
 				"type": "String"
 			},
 			{
@@ -232,7 +232,7 @@
 				"type": "String"
 			},
 			{
-				"name": "SPAREDETAIL(EXTERNALTOTIRE)",
+				"name": "SPAREDETAILEXTERNALTOTIRE",
 				"type": "String"
 			},
 			{
