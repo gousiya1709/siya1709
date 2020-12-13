@@ -10,7 +10,7 @@
 		"typeProperties": {
 			"location": {
 				"type": "AzureBlobStorageLocation",
-				"fileName": "1.csv",
+				"fileName": "dec14.csv",
 				"container": "input"
 			},
 			"columnDelimiter": ",",
@@ -20,7 +20,51 @@
 		},
 		"schema": [
 			{
+				"name": "SALECOUNTRY",
+				"type": "String"
+			},
+			{
+				"name": "VEH_SOURCE",
+				"type": "String"
+			},
+			{
+				"name": "IMPORT/DOMESTIC",
+				"type": "String"
+			},
+			{
+				"name": "MnemonicOnly",
+				"type": "String"
+			},
+			{
 				"name": "VehicleSales:Mnemoni-Vehicle/CountryorMCODE",
+				"type": "String"
+			},
+			{
+				"name": "TCODE",
+				"type": "String"
+			},
+			{
+				"name": "VehicleSales:SalesParentorGROUP",
+				"type": "String"
+			},
+			{
+				"name": "VehicleSales:Car/TruckorMACROLEVELSEGMENT",
+				"type": "String"
+			},
+			{
+				"name": "VehicleSales:RegionalSub-SegmentorMODIFIEDSEGMENT",
+				"type": "String"
+			},
+			{
+				"name": "RegionalSegmentConcatorDRISEGMENT",
+				"type": "String"
+			},
+			{
+				"name": "VehicleSales:Platform",
+				"type": "String"
+			},
+			{
+				"name": "VehicleSales:Brand",
 				"type": "String"
 			}
 		]
