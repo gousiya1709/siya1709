@@ -1,0 +1,53 @@
+{
+	"name": "AzureSqlTable1",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureSqlDatabase1",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [
+			{
+				"name": "MCODE",
+				"type": "varchar"
+			},
+			{
+				"name": "TCODE",
+				"type": "varchar"
+			},
+			{
+				"name": "DRISEGMENT",
+				"type": "varchar"
+			},
+			{
+				"name": "Platform",
+				"type": "varchar"
+			},
+			{
+				"name": "LASTUPDATE",
+				"type": "date"
+			},
+			{
+				"name": "CORE_F_SIZE",
+				"type": "varchar"
+			},
+			{
+				"name": "Name1",
+				"type": "decimal",
+				"precision": 18,
+				"scale": 0
+			},
+			{
+				"name": "value1",
+				"type": "decimal",
+				"precision": 18,
+				"scale": 0
+			}
+		],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "oe1"
+		}
+	}
+}
