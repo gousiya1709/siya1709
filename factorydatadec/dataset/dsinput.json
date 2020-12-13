@@ -66,6 +66,222 @@
 			{
 				"name": "VehicleSales:Brand",
 				"type": "String"
+			},
+			{
+				"name": "VehicleSales:NameplateorMODEL",
+				"type": "String"
+			},
+			{
+				"name": "TRIM",
+				"type": "String"
+			},
+			{
+				"name": "Electric",
+				"type": "String"
+			},
+			{
+				"name": "VehicleSales:BodyTypeorBODYSTYLE",
+				"type": "String"
+			},
+			{
+				"name": "DOORS",
+				"type": "String"
+			},
+			{
+				"name": "DRIVETYPE",
+				"type": "String"
+			},
+			{
+				"name": "LASTUPDATE",
+				"type": "String"
+			},
+			{
+				"name": "SERIES",
+				"type": "String"
+			},
+			{
+				"name": "TYPE_F",
+				"type": "String"
+			},
+			{
+				"name": "SECTIONWIDTH",
+				"type": "String"
+			},
+			{
+				"name": "ASPECTRATIO",
+				"type": "String"
+			},
+			{
+				"name": "TYPECONSTRUCTION",
+				"type": "String"
+			},
+			{
+				"name": "RIMDIAMETER",
+				"type": "String"
+			},
+			{
+				"name": "LOADINDEX",
+				"type": "String"
+			},
+			{
+				"name": "SPEEDSYMBOL",
+				"type": "String"
+			},
+			{
+				"name": "FRONT_SIZE",
+				"type": "String"
+			},
+			{
+				"name": "CORE_F_SIZE",
+				"type": "String"
+			},
+			{
+				"name": "CHECKINFOFTOB",
+				"type": "String"
+			},
+			{
+				"name": "TYPE_R",
+				"type": "String"
+			},
+			{
+				"name": "REARSECTIONWIDTH",
+				"type": "String"
+			},
+			{
+				"name": "REARASPECTRATIO",
+				"type": "String"
+			},
+			{
+				"name": "REARTYPECONSTRUCTION",
+				"type": "String"
+			},
+			{
+				"name": "REARRIMDIAMETER",
+				"type": "String"
+			},
+			{
+				"name": "REARLOADINDEX",
+				"type": "String"
+			},
+			{
+				"name": "REARSPEEDSYMBOL",
+				"type": "String"
+			},
+			{
+				"name": "REAR_SIZE",
+				"type": "String"
+			},
+			{
+				"name": "CORE_R_SIZE",
+				"type": "String"
+			},
+			{
+				"name": "TIREPARENT",
+				"type": "String"
+			},
+			{
+				"name": "TIRE_BRAND",
+				"type": "String"
+			},
+			{
+				"name": "TIRE_MODEL",
+				"type": "String"
+			},
+			{
+				"name": "TireCategory",
+				"type": "String"
+			},
+			{
+				"name": "VehicleApp",
+				"type": "String"
+			},
+			{
+				"name": "Segment",
+				"type": "String"
+			},
+			{
+				"name": "ReportingSegment",
+				"type": "String"
+			},
+			{
+				"name": "TireDesignation",
+				"type": "String"
+			},
+			{
+				"name": "AS/SUM/WIN/LRRAPPLIESTOOEMMARKETING",
+				"type": "String"
+			},
+			{
+				"name": "SIDEWALL",
+				"type": "String"
+			},
+			{
+				"name": "WHEELTYPE",
+				"type": "String"
+			},
+			{
+				"name": "RUN_FLATDETAIL(INTERNALTOTIRE)",
+				"type": "String"
+			},
+			{
+				"name": "PRES_MON",
+				"type": "String"
+			},
+			{
+				"name": "MON_SUPP",
+				"type": "String"
+			},
+			{
+				"name": "SPAREDETAIL(EXTERNALTOTIRE)",
+				"type": "String"
+			},
+			{
+				"name": "UpdatedSegment",
+				"type": "String"
+			},
+			{
+				"name": "UpdatedBodytype",
+				"type": "String"
+			},
+			{
+				"name": "VehicleSales:RegionalSegment",
+				"type": "String"
+			},
+			{
+				"name": "VehicleSales:RegionalPriceClass",
+				"type": "String"
+			},
+			{
+				"name": "GlobalSalesSegment",
+				"type": "String"
+			},
+			{
+				"name": "GlobalSalesSub-segment",
+				"type": "String"
+			},
+			{
+				"name": "GlobalSalesPriceClass",
+				"type": "String"
+			},
+			{
+				"name": "VehicleSales:Program",
+				"type": "String"
+			},
+			{
+				"name": "RUN_FLATSIMPL",
+				"type": "String"
+			},
+			{
+				"name": "SPARETIRESIMPL",
+				"type": "String"
+			},
+			{
+				"name": "Name",
+				"type": "String"
+			},
+			{
+				"name": "Value",
+				"type": "String"
 			}
 		]
 	}
