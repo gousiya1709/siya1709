@@ -10,10 +10,44 @@
 		"typeProperties": {
 			"location": {
 				"type": "AzureBlobStorageLocation",
+				"fileName": "dec14.parquet",
 				"container": "input"
 			},
 			"compressionCodec": "snappy"
 		},
-		"schema": []
+		"schema": [
+			{
+				"name": "VehicleSales:Mnemoni-Vehicle/CountryorMCODE",
+				"type": "UTF8"
+			},
+			{
+				"name": "TCODE",
+				"type": "UTF8"
+			},
+			{
+				"name": "RegionalSegmentConcatorDRISEGMENT",
+				"type": "UTF8"
+			},
+			{
+				"name": "VehicleSales:Platform",
+				"type": "UTF8"
+			},
+			{
+				"name": "LASTUPDATE",
+				"type": "UTF8"
+			},
+			{
+				"name": "CORE_F_SIZE",
+				"type": "UTF8"
+			},
+			{
+				"name": "Name",
+				"type": "UTF8"
+			},
+			{
+				"name": "Value",
+				"type": "UTF8"
+			}
+		]
 	}
 }
