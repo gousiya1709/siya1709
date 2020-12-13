@@ -20,7 +20,7 @@
 		},
 		"schema": [
 			{
-				"name": "SALE COUNTRY",
+				"name": "SALECOUNTRY",
 				"type": "String"
 			},
 			{
@@ -28,15 +28,15 @@
 				"type": "String"
 			},
 			{
-				"name": "IMPORT / DOMESTIC",
+				"name": "IMPORT/DOMESTIC",
 				"type": "String"
 			},
 			{
-				"name": "Mnemonic Only",
+				"name": "MnemonicOnly",
 				"type": "String"
 			},
 			{
-				"name": "Vehicle Sales: Mnemonic - Vehicle/Country or MCODE",
+				"name": "VehicleSales:Mnemoni-Vehicle/Country or MCODE",
 				"type": "String"
 			},
 			{
@@ -44,31 +44,31 @@
 				"type": "String"
 			},
 			{
-				"name": "Vehicle Sales: Sales Parent or GROUP",
+				"name": "VehicleSales:SalesParentorGROUP",
 				"type": "String"
 			},
 			{
-				"name": "Vehicle Sales: Car/Truck or MACRO LEVEL SEGMENT",
+				"name": "VehicleSales:Car/TruckorMACROLEVELSEGMENT",
 				"type": "String"
 			},
 			{
-				"name": "Vehicle Sales: Regional Sub-Segment or MODIFIED SEGMENT",
+				"name": "VehicleSales:RegionalSub-SegmentorMODIFIEDSEGMENT",
 				"type": "String"
 			},
 			{
-				"name": "Regional Segment Concat or DRI SEGMENT",
+				"name": "RegionalSegmentConcatorDRISEGMENT",
 				"type": "String"
 			},
 			{
-				"name": "Vehicle Sales: Platform",
+				"name": "VehicleSales:Platform",
 				"type": "String"
 			},
 			{
-				"name": "Vehicle Sales: Brand",
+				"name": "VehicleSales:Brand",
 				"type": "String"
 			},
 			{
-				"name": "Vehicle Sales: Nameplate or MODEL",
+				"name": "VehicleSales:NameplateorMODEL",
 				"type": "String"
 			},
 			{
@@ -80,7 +80,7 @@
 				"type": "String"
 			},
 			{
-				"name": "Vehicle Sales: Body Type or BODYSTYLE",
+				"name": "VehicleSales:BodyTypeorBODYSTYLE",
 				"type": "String"
 			},
 			{
@@ -92,7 +92,7 @@
 				"type": "String"
 			},
 			{
-				"name": "LAST UPDATE",
+				"name": "LASTUPDATE",
 				"type": "String"
 			},
 			{
@@ -104,27 +104,27 @@
 				"type": "String"
 			},
 			{
-				"name": "SECTION WIDTH",
+				"name": "SECTIONWIDTH",
 				"type": "String"
 			},
 			{
-				"name": "ASPECT RATIO",
+				"name": "ASPECTRATIO",
 				"type": "String"
 			},
 			{
-				"name": "TYPE CONSTRUCTION",
+				"name": "TYPECONSTRUCTION",
 				"type": "String"
 			},
 			{
-				"name": "RIM DIAMETER",
+				"name": "RIMDIAMETER",
 				"type": "String"
 			},
 			{
-				"name": "LOAD INDEX",
+				"name": "LOADINDEX",
 				"type": "String"
 			},
 			{
-				"name": "SPEED SYMBOL",
+				"name": "SPEEDSYMBOL",
 				"type": "String"
 			},
 			{
@@ -136,7 +136,7 @@
 				"type": "String"
 			},
 			{
-				"name": "CHECK INFO F TO B",
+				"name": "CHECKINFOFTOB",
 				"type": "String"
 			},
 			{
@@ -144,27 +144,27 @@
 				"type": "String"
 			},
 			{
-				"name": "REAR SECTION WIDTH",
+				"name": "REARSECTIONWIDTH",
 				"type": "String"
 			},
 			{
-				"name": "REAR ASPECT RATIO",
+				"name": "REARASPECTRATIO",
 				"type": "String"
 			},
 			{
-				"name": "REAR TYPE CONSTRUCTION",
+				"name": "REARTYPECONSTRUCTION",
 				"type": "String"
 			},
 			{
-				"name": "REAR RIM DIAMETER",
+				"name": "REARRIMDIAMETER",
 				"type": "String"
 			},
 			{
-				"name": "REAR LOAD INDEX",
+				"name": "REARLOADINDEX",
 				"type": "String"
 			},
 			{
-				"name": "REAR SPEED SYMBOL",
+				"name": "REARSPEEDSYMBOL",
 				"type": "String"
 			},
 			{
@@ -176,7 +176,7 @@
 				"type": "String"
 			},
 			{
-				"name": "TIRE PARENT",
+				"name": "TIREPARENT",
 				"type": "String"
 			},
 			{
@@ -188,11 +188,11 @@
 				"type": "String"
 			},
 			{
-				"name": "Tire Category",
+				"name": "TireCategory",
 				"type": "String"
 			},
 			{
-				"name": "Vehicle App",
+				"name": "VehicleApp",
 				"type": "String"
 			},
 			{
@@ -200,15 +200,15 @@
 				"type": "String"
 			},
 			{
-				"name": "Reporting Segment",
+				"name": "ReportingSegment",
 				"type": "String"
 			},
 			{
-				"name": "Tire Designation",
+				"name": "TireDesignation",
 				"type": "String"
 			},
 			{
-				"name": "AS / SUM / WIN / LRR APPLIES TO OEM MARKETING",
+				"name": "AS/SUM/WIN/LRRAPPLIESTOOEMMARKETING",
 				"type": "String"
 			},
 			{
@@ -216,11 +216,11 @@
 				"type": "String"
 			},
 			{
-				"name": "WHEEL TYPE",
+				"name": "WHEELTYPE",
 				"type": "String"
 			},
 			{
-				"name": "RUN_FLAT DETAIL (INTERNAL TO TIRE)",
+				"name": "RUN_FLATDETAIL(INTERNALTOTIRE)",
 				"type": "String"
 			},
 			{
@@ -232,47 +232,47 @@
 				"type": "String"
 			},
 			{
-				"name": "SPARE DETAIL (EXTERNAL TO TIRE)",
+				"name": "SPAREDETAIL(EXTERNALTOTIRE)",
 				"type": "String"
 			},
 			{
-				"name": "Updated Segment",
+				"name": "UpdatedSegment",
 				"type": "String"
 			},
 			{
-				"name": "Updated Bodytype",
+				"name": "UpdatedBodytype",
 				"type": "String"
 			},
 			{
-				"name": "Vehicle Sales: Regional Segment",
+				"name": "VehicleSales:RegionalSegment",
 				"type": "String"
 			},
 			{
-				"name": "Vehicle Sales: Regional Price Class",
+				"name": "VehicleSales:RegionalPriceClass",
 				"type": "String"
 			},
 			{
-				"name": "Global Sales Segment",
+				"name": "GlobalSalesSegment",
 				"type": "String"
 			},
 			{
-				"name": "Global Sales Sub-segment",
+				"name": "GlobalSalesSub-segment",
 				"type": "String"
 			},
 			{
-				"name": "Global Sales Price Class",
+				"name": "GlobalSalesPriceClass",
 				"type": "String"
 			},
 			{
-				"name": "Vehicle Sales: Program",
+				"name": "VehicleSales:Program",
 				"type": "String"
 			},
 			{
-				"name": "RUN_FLAT SIMPL",
+				"name": "RUN_FLATSIMPL",
 				"type": "String"
 			},
 			{
-				"name": "SPARE TIRE SIMPL",
+				"name": "SPARETIRESIMPL",
 				"type": "String"
 			},
 			{
