@@ -10,7 +10,7 @@
 		"typeProperties": {
 			"location": {
 				"type": "AzureBlobStorageLocation",
-				"fileName": "1.csv",
+				"fileName": "dec14.csv",
 				"container": "input"
 			},
 			"columnDelimiter": ",",
@@ -20,7 +20,35 @@
 		},
 		"schema": [
 			{
-				"name": "SALE COUNTRY",
+				"name": "VehicleSales:Mnemoni-Vehicle/CountryorMCODE",
+				"type": "String"
+			},
+			{
+				"name": "TCODE",
+				"type": "String"
+			},
+			{
+				"name": "RegionalSegmentConcatorDRISEGMENT",
+				"type": "String"
+			},
+			{
+				"name": "VehicleSales:Platform",
+				"type": "String"
+			},
+			{
+				"name": "LASTUPDATE",
+				"type": "String"
+			},
+			{
+				"name": "CORE_F_SIZE",
+				"type": "String"
+			},
+			{
+				"name": "Name",
+				"type": "String"
+			},
+			{
+				"name": "Value",
 				"type": "String"
 			}
 		]
