@@ -50,6 +50,138 @@
 									"type": "String",
 									"physicalType": "UTF8"
 								}
+							},
+							{
+								"source": {
+									"name": "VEH_SOURCE",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "VEH_SOURCE",
+									"type": "String",
+									"physicalType": "UTF8"
+								}
+							},
+							{
+								"source": {
+									"name": "IMPORT/DOMESTIC",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "IMPORT/DOMESTIC",
+									"type": "String",
+									"physicalType": "UTF8"
+								}
+							},
+							{
+								"source": {
+									"name": "MnemonicOnly",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "MnemonicOnly",
+									"type": "String",
+									"physicalType": "UTF8"
+								}
+							},
+							{
+								"source": {
+									"name": "VehicleSales:Mnemoni-Vehicle/CountryorMCODE",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "VehicleSales:Mnemoni-Vehicle/CountryorMCODE",
+									"type": "String",
+									"physicalType": "UTF8"
+								}
+							},
+							{
+								"source": {
+									"name": "TCODE",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "TCODE",
+									"type": "String",
+									"physicalType": "UTF8"
+								}
+							},
+							{
+								"source": {
+									"name": "VehicleSales:SalesParentorGROUP",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "VehicleSales:SalesParentorGROUP",
+									"type": "String",
+									"physicalType": "UTF8"
+								}
+							},
+							{
+								"source": {
+									"name": "VehicleSales:Car/TruckorMACROLEVELSEGMENT",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "VehicleSales:Car/TruckorMACROLEVELSEGMENT",
+									"type": "String",
+									"physicalType": "UTF8"
+								}
+							},
+							{
+								"source": {
+									"name": "VehicleSales:RegionalSub-SegmentorMODIFIEDSEGMENT",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "VehicleSales:RegionalSub-SegmentorMODIFIEDSEGMENT",
+									"type": "String",
+									"physicalType": "UTF8"
+								}
+							},
+							{
+								"source": {
+									"name": "RegionalSegmentConcatorDRISEGMENT",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "RegionalSegmentConcatorDRISEGMENT",
+									"type": "String",
+									"physicalType": "UTF8"
+								}
+							},
+							{
+								"source": {
+									"name": "VehicleSales:Platform",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "VehicleSales:Platform",
+									"type": "String",
+									"physicalType": "UTF8"
+								}
+							},
+							{
+								"source": {
+									"name": "VehicleSales:Brand",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "VehicleSales:Brand",
+									"type": "String",
+									"physicalType": "UTF8"
+								}
 							}
 						],
 						"typeConversion": true,
