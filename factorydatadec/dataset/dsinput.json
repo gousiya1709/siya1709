@@ -22,6 +22,14 @@
 			{
 				"name": "SALECOUNTRY",
 				"type": "String"
+			},
+			{
+				"name": "VEH_SOURCE",
+				"type": "String"
+			},
+			{
+				"name": "IMPORT/DOMESTIC",
+				"type": "String"
 			}
 		]
 	}
