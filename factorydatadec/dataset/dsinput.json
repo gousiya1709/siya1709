@@ -1,0 +1,288 @@
+{
+	"name": "dsinput",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureBlobStorage1",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"fileName": "input.csv",
+				"container": "input"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": [
+			{
+				"name": "SALE COUNTRY",
+				"type": "String"
+			},
+			{
+				"name": "VEH_SOURCE",
+				"type": "String"
+			},
+			{
+				"name": "IMPORT / DOMESTIC",
+				"type": "String"
+			},
+			{
+				"name": "Mnemonic Only",
+				"type": "String"
+			},
+			{
+				"name": "Vehicle Sales: Mnemonic - Vehicle/Country or MCODE",
+				"type": "String"
+			},
+			{
+				"name": "TCODE",
+				"type": "String"
+			},
+			{
+				"name": "Vehicle Sales: Sales Parent or GROUP",
+				"type": "String"
+			},
+			{
+				"name": "Vehicle Sales: Car/Truck or MACRO LEVEL SEGMENT",
+				"type": "String"
+			},
+			{
+				"name": "Vehicle Sales: Regional Sub-Segment or MODIFIED SEGMENT",
+				"type": "String"
+			},
+			{
+				"name": "Regional Segment Concat or DRI SEGMENT",
+				"type": "String"
+			},
+			{
+				"name": "Vehicle Sales: Platform",
+				"type": "String"
+			},
+			{
+				"name": "Vehicle Sales: Brand",
+				"type": "String"
+			},
+			{
+				"name": "Vehicle Sales: Nameplate or MODEL",
+				"type": "String"
+			},
+			{
+				"name": "TRIM",
+				"type": "String"
+			},
+			{
+				"name": "Electric",
+				"type": "String"
+			},
+			{
+				"name": "Vehicle Sales: Body Type or BODYSTYLE",
+				"type": "String"
+			},
+			{
+				"name": "DOORS",
+				"type": "String"
+			},
+			{
+				"name": "DRIVETYPE",
+				"type": "String"
+			},
+			{
+				"name": "LAST UPDATE",
+				"type": "String"
+			},
+			{
+				"name": "SERIES",
+				"type": "String"
+			},
+			{
+				"name": "TYPE_F",
+				"type": "String"
+			},
+			{
+				"name": "SECTION WIDTH",
+				"type": "String"
+			},
+			{
+				"name": "ASPECT RATIO",
+				"type": "String"
+			},
+			{
+				"name": "TYPE CONSTRUCTION",
+				"type": "String"
+			},
+			{
+				"name": "RIM DIAMETER",
+				"type": "String"
+			},
+			{
+				"name": "LOAD INDEX",
+				"type": "String"
+			},
+			{
+				"name": "SPEED SYMBOL",
+				"type": "String"
+			},
+			{
+				"name": "FRONT_SIZE",
+				"type": "String"
+			},
+			{
+				"name": "CORE_F_SIZE",
+				"type": "String"
+			},
+			{
+				"name": "CHECK INFO F TO B",
+				"type": "String"
+			},
+			{
+				"name": "TYPE_R",
+				"type": "String"
+			},
+			{
+				"name": "REAR SECTION WIDTH",
+				"type": "String"
+			},
+			{
+				"name": "REAR ASPECT RATIO",
+				"type": "String"
+			},
+			{
+				"name": "REAR TYPE CONSTRUCTION",
+				"type": "String"
+			},
+			{
+				"name": "REAR RIM DIAMETER",
+				"type": "String"
+			},
+			{
+				"name": "REAR LOAD INDEX",
+				"type": "String"
+			},
+			{
+				"name": "REAR SPEED SYMBOL",
+				"type": "String"
+			},
+			{
+				"name": "REAR_SIZE",
+				"type": "String"
+			},
+			{
+				"name": "CORE_R_SIZE",
+				"type": "String"
+			},
+			{
+				"name": "TIRE PARENT",
+				"type": "String"
+			},
+			{
+				"name": "TIRE_BRAND",
+				"type": "String"
+			},
+			{
+				"name": "TIRE_MODEL",
+				"type": "String"
+			},
+			{
+				"name": "Tire Category",
+				"type": "String"
+			},
+			{
+				"name": "Vehicle App",
+				"type": "String"
+			},
+			{
+				"name": "Segment",
+				"type": "String"
+			},
+			{
+				"name": "Reporting Segment",
+				"type": "String"
+			},
+			{
+				"name": "Tire Designation",
+				"type": "String"
+			},
+			{
+				"name": "AS / SUM / WIN / LRR APPLIES TO OEM MARKETING",
+				"type": "String"
+			},
+			{
+				"name": "SIDEWALL",
+				"type": "String"
+			},
+			{
+				"name": "WHEEL TYPE",
+				"type": "String"
+			},
+			{
+				"name": "RUN_FLAT DETAIL (INTERNAL TO TIRE)",
+				"type": "String"
+			},
+			{
+				"name": "PRES_MON",
+				"type": "String"
+			},
+			{
+				"name": "MON_SUPP",
+				"type": "String"
+			},
+			{
+				"name": "SPARE DETAIL (EXTERNAL TO TIRE)",
+				"type": "String"
+			},
+			{
+				"name": "Updated Segment",
+				"type": "String"
+			},
+			{
+				"name": "Updated Bodytype",
+				"type": "String"
+			},
+			{
+				"name": "Vehicle Sales: Regional Segment",
+				"type": "String"
+			},
+			{
+				"name": "Vehicle Sales: Regional Price Class",
+				"type": "String"
+			},
+			{
+				"name": "Global Sales Segment",
+				"type": "String"
+			},
+			{
+				"name": "Global Sales Sub-segment",
+				"type": "String"
+			},
+			{
+				"name": "Global Sales Price Class",
+				"type": "String"
+			},
+			{
+				"name": "Vehicle Sales: Program",
+				"type": "String"
+			},
+			{
+				"name": "RUN_FLAT SIMPL",
+				"type": "String"
+			},
+			{
+				"name": "SPARE TIRE SIMPL",
+				"type": "String"
+			},
+			{
+				"name": "Name",
+				"type": "String"
+			},
+			{
+				"name": "Value",
+				"type": "String"
+			}
+		]
+	}
+}
