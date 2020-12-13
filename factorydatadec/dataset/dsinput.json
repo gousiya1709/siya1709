@@ -20,15 +20,7 @@
 		},
 		"schema": [
 			{
-				"name": "SALECOUNTRY",
-				"type": "String"
-			},
-			{
-				"name": "VEH_SOURCE",
-				"type": "String"
-			},
-			{
-				"name": "IMPORT/DOMESTIC",
+				"name": "VehicleSales:Mnemoni-Vehicle/CountryorMCODE",
 				"type": "String"
 			}
 		]
