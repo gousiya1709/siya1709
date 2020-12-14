@@ -69,7 +69,7 @@
 						},
 						"duration": {
 							"value": {
-								"value": "@activity('Get Metadata1').output.duration",
+								"value": "@activity('Get Metadata1').output.executionDuration",
 								"type": "Expression"
 							},
 							"type": "Decimal"
