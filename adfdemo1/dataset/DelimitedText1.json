@@ -1,0 +1,56 @@
+{
+	"name": "DelimitedText1",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureBlobStorage1",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"fileName": "dec14.csv",
+				"container": "input"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": [
+			{
+				"name": "VehicleSales:Mnemoni-Vehicle/CountryorMCODE",
+				"type": "String"
+			},
+			{
+				"name": "TCODE",
+				"type": "String"
+			},
+			{
+				"name": "RegionalSegmentConcatorDRISEGMENT",
+				"type": "String"
+			},
+			{
+				"name": "VehicleSales:Platform",
+				"type": "String"
+			},
+			{
+				"name": "LASTUPDATE",
+				"type": "String"
+			},
+			{
+				"name": "CORE_F_SIZE",
+				"type": "String"
+			},
+			{
+				"name": "Name",
+				"type": "String"
+			},
+			{
+				"name": "Value",
+				"type": "String"
+			}
+		]
+	}
+}
