@@ -58,9 +58,49 @@
 				},
 				"userProperties": [],
 				"typeProperties": {
+					"storedProcedureName": "[dbo].[sp_log]",
 					"storedProcedureParameters": {
-						"": {
-							"value": ""
+						"columnCount": {
+							"value": {
+								"value": "@activity('Get Metadata1').output.columnCount",
+								"type": "Expression"
+							},
+							"type": "String"
+						},
+						"duration": {
+							"value": {
+								"value": "@activity('Get Metadata1').output.duration",
+								"type": "Expression"
+							},
+							"type": "Decimal"
+						},
+						"itemName": {
+							"value": {
+								"value": "@activity('Get Metadata1').output.itemName",
+								"type": "Expression"
+							},
+							"type": "String"
+						},
+						"itemType": {
+							"value": {
+								"value": "@activity('Get Metadata1').output.itemType",
+								"type": "Expression"
+							},
+							"type": "String"
+						},
+						"lastModified": {
+							"value": {
+								"value": "@activity('Get Metadata1').output.lastModified",
+								"type": "Expression"
+							},
+							"type": "DateTime"
+						},
+						"size": {
+							"value": {
+								"value": "@activity('Get Metadata1').output.size",
+								"type": "Expression"
+							},
+							"type": "String"
 						}
 					}
 				},
